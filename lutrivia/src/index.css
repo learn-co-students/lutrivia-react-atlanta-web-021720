@@ -1,0 +1,73 @@
+.AppContainer{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    background-color: white;
+}
+body{background-color:whitesmoke;}
+
+#MainTitle{
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+#NewGameBtn{
+    font-size: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 3px;
+    background-color: lightgray;
+    margin-left: 30px;
+}
+
+#HeaderScore{
+    text-align: right;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.triviaQuestion{
+    border-style: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-color: grey;
+    background-color: lightgray;
+}
+
+#propHeader{
+    margin-left: 25px;
+}
+
+.trueFalseBtns{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid grey;
+    background-color: lightgray;
+}
+
+#SubmitScoreBtn{
+    font-size: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 3px;
+    background-color: lightgray;
+    margin-left: 300px;
+    ;
+}
+
+#NameInput{
+    font-size: 40px;
+    margin-left: 100px;
+    border-style: solid grey;
+}
+
+#FooterForm{
+    padding-bottom: 20px;
+}
