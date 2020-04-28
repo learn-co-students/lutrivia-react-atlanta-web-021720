@@ -1,11 +1,20 @@
 import React from 'react';
+import QuizContainer from './QuizContainer'
 
-function App() {
+class App extends React.Component {
+
+
+
+
+
+  render() {
   return (
-    <div>
-
+    <div className="app container">
+      <h1>Lutrivia</h1>
+      <QuizContainer 
+      />
     </div>
-  );
+  );}
 }
 
 export default App;

@@ -1,0 +1,97 @@
+body {
+    background-color: #e7e7e7;
+    padding: 25px;
+    color: #4d4d4d;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+}
+
+.app {
+    margin: auto;
+    border-style: solid;
+    border-color: #9c9c9c;
+    border-radius: 8px;
+    border-width: 4px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+button {
+    border-style: solid;
+    border-color: #a7a7a7;
+    border-radius: 8px;
+    border-width: 4px;
+    background-color: #ffffff;
+    padding: 1em .5em 1em .5em;
+    box-shadow: 0 4px #b8b8b8;
+    font-size: 16px;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+
+.tf:hover, .long-btn:hover {
+    background-color: #d0d0d0;
+}
+
+#cur-score {
+    float: right;
+    margin: .5em 3em 1em 1em
+}
+
+.container {
+    overflow: auto;
+}
+
+.container::after {
+    clear: both;
+    display: block;
+}
+
+.tf {
+    float: left;
+    margin: 0 10px 10px;
+    background-color: #e7e7e7;
+}
+
+.q-card {
+    padding: 0 20px 10px 10px;
+    background-color: #e7e7e7;
+    border-style: solid;
+    border-color: #a7a7a7;
+    border-width: 3px;
+    margin: 20px 30px 0 5px; 
+}
+
+.long-btn {
+    background-color: #e7e7e7;
+    width: 300px;
+    float: left;
+    margin: 0 0 10px;
+}
+
+input {
+    float: left;
+    margin: 5px 50px 0 0;
+    width: 50%;
+    font-size: 22px;
+    padding: .85em 1em .25em .5em;
+    border-style: solid;
+    border-color: #a7a7a7;
+    border-width: 3px;
+}
+
+.form {
+    margin: 40px 0 0 10px;
+}
+
