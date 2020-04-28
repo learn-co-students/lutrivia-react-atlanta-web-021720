@@ -1,5 +1,4 @@
-export default {
-    questions: [
+export default [
         {
             text: "An otter's den is called a sofa.",
             answer: false
@@ -41,4 +40,4 @@ export default {
             answer: true
         }
     ]
-}
+
